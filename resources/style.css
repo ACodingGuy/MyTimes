@@ -1,3 +1,19 @@
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -71,6 +87,9 @@ a {
 }
 
 .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   font-size: 30px;
   margin-top: 15px;
@@ -86,6 +105,10 @@ a {
   margin-top: 0px;
   font-size: 40px;
   text-align: left;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .fall-cancelled.image-content {
@@ -170,7 +193,7 @@ nav span {
   padding: 20px 10px;
 }
 
-p {
+.copyright {
   font-family: Verdana;
   font-size: 12px;
   text-align: center;
